@@ -11,6 +11,11 @@ Responsive grids - inspiration by Jonas Schmedtmann's Udemy course.
 - There is three grid system that would be updated here: Float Layout, Flexbox, and CSS Grid.
 - For now, only the Float Layout is available.
 
+# Usage
+- Initialize with `npm install`.
+- Don't forget to `npm install node-sass` because you will need the SCSS code.
+- Copy and paste the required columns into your project.
+
 # Changelog
 ### Version 1.0 - 24/12/2019
 - Initial repository.
