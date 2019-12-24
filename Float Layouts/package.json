@@ -1,0 +1,14 @@
+{
+  "name": "reseponsive-grids",
+  "version": "1.0.0",
+  "description": "Contains reseponsive grids for your web design environment - from Float Layouts, Flexbox, to CSS Grids.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Nicholas Dwiarto",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

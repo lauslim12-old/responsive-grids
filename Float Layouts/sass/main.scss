@@ -1,0 +1,113 @@
+// Standard Grid Size is 1140px. I changed it to 114 rem for reseponsive web design.
+// Class ^= Col is used to choose all classes whose prefix starts with 'col-'.
+$color-grey-dark: #777;
+$color-columns: orangered;
+
+$color-primary: #55c57a;
+$color-secondary: #28b485;
+
+$grid-width: 114rem;
+$gutter-horizontal: 8rem;
+$gutter-vertical: 6rem;
+
+/* Base */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Definition of 1 rem.
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+/* Grid */
+.row {
+  max-width: $grid-width;
+  // background-color: $color-grey-dark;
+  margin: 0 auto;
+  margin-bottom: $gutter-vertical;
+
+  & p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    top: 30%;
+    position: relative;
+  }
+
+  // Clearfix
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  // End of Clearfix
+
+  [class^="col-"] {
+    background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
+    float: left;
+    height: 5rem;
+    transition: transform .3s;
+
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+  }
+
+  .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
+  }
+
+  .col-1-of-4 {
+    width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+  }
+
+  .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+  }
+
+  .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+  }
+
+  [class^="col-"]:hover {
+    transform: scale(1.05);
+  }
+
+}
+
+/* Footer */
+footer > h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
+}
