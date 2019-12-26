@@ -6,6 +6,7 @@ Responsive grids - inspiration by Jonas Schmedtmann's Udemy course.
 - Block Element Modifier Naming System
 - Think, Build, Architect Thinking Philosophy
 - Standard UI Design Procedures
+- Coded with Visual Studio Code
 
 # Overview
 - There is three grid system that would be updated here: Float Layout, Flexbox, and CSS Grid.
