@@ -8,8 +8,14 @@ Responsive grids - inspiration by Jonas Schmedtmann's Udemy course.
 - Standard UI Design Procedures
 
 # Overview
-- There is three grid system that would be updated here: Float Layout, Flexbox, and CSS Grid.
-- For now, only the Float Layout is available.
+- There are three grid systems that would be updated here: Float Layout, Flexbox, and CSS Grid.
+- For now, only the Float Layout and the CSS Grid Layout are available.
+
+## Detailed Overview - Float Layouts
+- Usage of width, floats, and clearfix hacks in order to make a responsive grid system.
+
+## Detailed Overview - CSS Grid
+- The design is a blog-like website, but only the grids that are available.
 
 # Usage
 - Initialize with `npm install`.
