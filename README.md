@@ -27,6 +27,8 @@ Responsive grids - inspiration by Jonas Schmedtmann's Udemy course.
 - Compile the code with `node:sass '.scss-file-location' 'css-output'.
 - Look at the results.
 
+Alternatively, run it on `codepen.io` by copy pasting the HTML and the SCSS code.
+
 # Changelog
 ### Version 1.0 - 24/12/2019
 - Initial repository.
