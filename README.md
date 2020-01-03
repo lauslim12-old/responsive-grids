@@ -32,7 +32,7 @@ Alternatively, run it on `codepen.io` by copy pasting the HTML and the SCSS code
 # Changelog
 ### Version 2.0 - 01/01/2020
 - Added CSS Grid.
-- Fixed some merge conflicts.
+- Fixed some GitHub merge conflicts.
 - README.md updated.
 
 ### Version 1.0 - 24/12/2019
