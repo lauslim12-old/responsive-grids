@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-family: inherit;
+  text-align: center;
+  font-size: 15px;
+}
+
+h5 {
+  font-family: inherit;
+  text-align: center;
+}
+
+footer > h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.grid-test {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  flex: 0 0 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  &--span-half {
+    flex: 0 0 100%;
+  }
+
+  &--span-third {
+    flex: 0 0 100%;
+    justify-content: space-between;
+  }
+}
+
+.item {
+  font-family: inherit;
+  min-width: 25%;
+  min-height: 25%;
+  padding: 5px;
+  margin: 5px;
+  background-color: orangered;
+  text-align: center;
+
+  &--span-half {
+    min-width: 50%;
+    min-height: 50%;
+  }
+}
