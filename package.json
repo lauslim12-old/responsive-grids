@@ -1,0 +1,24 @@
+{
+  "name": "responsive-grids",
+  "version": "2.0.0",
+  "description": "Template for resposive grid system with various CSS styles",
+  "main": "index.js",
+  "scripts": {
+    "float:watch:sass": "node-sass float/sass/main.scss float/css/style.css -w",
+    "flex:watch:sass": "node-sass flexbox/sass/main.scss flexbox/css/style.css -w",
+    "grid:watch:sass": "node-sass grid/sass/main.scss grid/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauslim12/responsive-grids.git"
+  },
+  "author": "Nicholas Dwiarto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lauslim12/responsive-grids/issues"
+  },
+  "homepage": "https://github.com/lauslim12/responsive-grids#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
